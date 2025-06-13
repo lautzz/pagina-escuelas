@@ -1,31 +1,119 @@
-body{
- font-family: "Ubuntu", sans-serif;
-}
-#imglacosta{
-    width: 100%;
+/* estilo/style.css */
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #FFF8DC; /* color crema suave */
     margin: 0;
-    background-size: cover;
+    padding: 0;
+    color: #333;
 }
-ul{
+
+h1, h2 {
+    text-align: center;
+    color: #ff6f61;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+#barra {
+    background-color: #87CEEB; /* azul cielo */
+    padding: 10px 0;
+    text-align: center;
+}
+
+#barra ul {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0;
     list-style: none;
-    display: flex;
-    justify-content: space-around;
 }
-a{
+
+#barra li {
+    background-color: #FFD700; /* amarillo alegre */
+    border-radius: 15px;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+#barra li:hover {
+    background-color: #FFA500; /* naranja */
+}
+
+#barra a {
     text-decoration: none;
-    display: flex;
-    justify-content: space-around;
+    font-weight: bold;
+    color: #000;
+    font-size: 1.2em;
 }
-#barra{
-    display: flex;
-    justify-content: space-around;
+
+#imgtarjetas {
+    text-align: center;
+    margin: 20px;
 }
-header{
-    background-image: url('../imagenes/images.jpeg');
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0;
-    border: 0;
-    height: 600px;
+
+#imgtarjetas img {
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+    margin: 10px;
+    border: 4px solid #FFB6C1; /* rosa suave */
+}
+
+#imgtarjetas p {
+    max-width: 600px;
+    margin: 10px auto 30px;
+    font-size: 1.2em;
+    background-color: #E0FFFF; /* celeste suave */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #98FB98; /* verde pastel */
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1.2em;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #90EE90;
+}
+
+button a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+#sobre-nosotros {
+    background-color: #F0E68C; /* amarillo claro */
+    padding: 30px 20px;
+    border-top: 4px dashed #FF69B4; /* rosa fuerte */
+}
+
+#sobre-nosotros div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#sobre-nosotros img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #FFA07A; /* salmón */
+    background-color: white;
+}
+
+#sobre-nosotros p {
+    max-width: 600px;
+    margin: 10px auto;
+    font-size: 1.1em;
+    background-color: #FFF0F5; /* lavanda */
+    padding: 15px;
+    border-radius: 12px;
 }
